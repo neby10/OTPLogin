@@ -11,8 +11,8 @@
     <body>
         <h1>Welcome to Our Website!</h1>
         <p>Your OTP password: </p>
-        <p></p>
-        <button onclick="generate()">Generate OTP Password</button>
+        <p id="otp-password" ></p>
+        <button id="generate-submit" >Generate OTP Password</button>
         <form class="Login-form" method="POST" action="">
             <h2>Login</h2>
             <br />
@@ -22,9 +22,9 @@
             <br />
             <input class="Login-form-input" id="password" type="password" required >
             <br />
-            <button type="reset" onclick="login()">Log In</button>
+            <button id="login-submit" type="reset" >Log In</button>
         </form>
-        <h1 id="result">Success</h1>
+        <h1 id="result"></h1>
         
         <!-- <script type="module" src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
 
